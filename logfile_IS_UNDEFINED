@@ -1,0 +1,77 @@
+14:29:17.960 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 383 datums.
+14:29:17.968 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:17.969 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:17.969 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:17.971 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:17.987 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:17.987 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.047 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.048 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.048 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.048 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.048 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.055 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.056 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.064 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.064 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.065 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.065 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.065 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.071 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.071 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.074 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.074 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.074 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.075 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.075 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.080 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.080 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.083 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.083 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.083 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.083 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.084 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.086 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.087 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.089 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.089 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.090 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.090 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.090 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.092 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.092 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.095 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.095 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.095 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.095 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.095 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.098 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.098 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.100 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.100 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.100 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.100 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.101 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.104 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.104 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.106 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.106 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.106 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.106 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.106 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.109 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.109 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.111 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 345 datums.
+14:29:18.112 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.112 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.112 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.112 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.115 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.115 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
+14:29:18.117 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 342 datums.
+14:29:18.117 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Label distribution (2): notgradable -> 206, gradable -> 177
+14:29:18.117 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using 4 features.
+14:29:18.117 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Using bias = 1.0
+14:29:18.117 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Bias feature index: 4
+14:29:18.121 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 2 classes.
+14:29:18.121 [run-main-0] DEBUG o.c.learning.LiblinearClassifier - Model contains 3 features.
