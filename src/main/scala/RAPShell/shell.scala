@@ -40,7 +40,7 @@ import util.control.Breaks._
 //creating a function to merge with world-modeling code. Note that the main function has been moved to mainfile()
 //so removing the extends app part
 //object RAPShell extends App {
-  object shell {
+object shell {
 
   //val filenameOfThisfile = "filenameOfThisfile.txt";
   val nthreads = 4
@@ -53,13 +53,17 @@ import util.control.Breaks._
     //if running on server, change the input and output directories accordingly. This is beacuse the file mapping is
     //totally different on server.
     if (initializer.runOnServer) {
+      println("found that runonserver flag=true")
       resourcesDirectory = "/work/mithunpaul/testbed/agigaFiles/"
       outputDirectoryPath = "/work/mithunpaul/newOutputs/agigaToText/"
+      println("resourcesDirectory is:"+resourcesDirectory)
+      println("outputDirectoryPath is:"+outputDirectoryPath)
       val listOfFiles = new File(resourcesDirectory).listFiles().par
       listOfFiles.tasksupport = new ForkJoinTaskSupport(new scala.concurrent.forkjoin.ForkJoinPool(nthreads))
     }
     val listOfFiles = new File(resourcesDirectory).listFiles()
 
+    println("total number of files in this directory is:"+listOfFiles.length)
 
     for (indivFileName <- listOfFiles) {
       //for each input file, create a corresponding output file with .txt extension.

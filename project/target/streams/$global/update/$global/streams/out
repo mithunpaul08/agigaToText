@@ -1,11 +1,11 @@
-[info] Updating {file:/home/mithunpaul/spring2017/research/agigaToText3/project/}agigatotext3-build...
-[debug] :: resolving dependencies :: default#agigatotext3-build;0.1-SNAPSHOT
+[info] Updating {file:/home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/}agigatotext-build...
+[debug] :: resolving dependencies :: default#agigatotext-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
 [info] Resolving com.jsuereth#sbt-pgp;1.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jsuereth#sbt-pgp;1.0.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.jsuereth#sbt-pgp;1.0.0
@@ -231,13 +231,13 @@
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
 [info] Resolving org.xerial.sbt#sbt-sonatype;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.xerial.sbt#sbt-sonatype;1.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.xerial.sbt#sbt-sonatype;1.1
 [debug] 	found org.xerial.sbt#sbt-sonatype;1.1 in sbt-chain
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -297,18 +297,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
 [info] Resolving com.github.gseitz#sbt-release;1.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.gseitz#sbt-release;1.0.3 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.github.gseitz#sbt-release;1.0.3
 [debug] 	found com.github.gseitz#sbt-release;1.0.3 in sbt-chain
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->com.jsuereth#pgp-library_2.10;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -470,9 +470,9 @@
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -514,15 +514,15 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->com.jsuereth#pgp-library_2.10;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -684,9 +684,9 @@
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -728,17 +728,17 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -1422,11 +1422,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->com.jsuereth#pgp-library_2.10;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -1588,9 +1588,9 @@
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1632,17 +1632,17 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -2105,10 +2105,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->com.jsuereth#pgp-library_2.10;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -2270,9 +2270,9 @@
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -2314,17 +2314,17 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.jsuereth#sbt-pgp;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->com.jsuereth#pgp-library_2.10;1.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies com.jsuereth#pgp-library_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -2486,9 +2486,9 @@
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->runtime]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->compile]
 [debug] == resolving dependencies com.jsuereth#sbt-pgp;1.0.0->net.databinder#dispatch-http_2.10;0.8.10 [compile->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.xerial.sbt#sbt-sonatype;1.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -2530,17 +2530,17 @@
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.2.6->commons-codec#commons-codec;1.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.9 {test=[runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.xerial.sbt#sbt-sonatype;1.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->com.github.gseitz#sbt-release;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -3003,18 +3003,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#agigatotext3-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#agigatotext-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -3032,8 +3032,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}
@@ -3046,11 +3046,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#agigatotext3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#agigatotext-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.jsuereth#sbt-pgp;1.0.0!sbt-pgp.jar
@@ -3123,19 +3123,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1658ms :: artifacts dl 126ms
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT compile produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-compile.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT runtime produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-runtime.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT test produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-test.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT provided produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-provided.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT optional produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-optional.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT compile-internal produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-compile-internal.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT runtime-internal produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-runtime-internal.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT test-internal produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-test-internal.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT plugin produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-plugin.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT sources produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-sources.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT docs produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-docs.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT pom produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-pom.xml
-[debug] 	report for default#agigatotext3-build;0.1-SNAPSHOT scala-tool produced in /home/mithunpaul/spring2017/research/agigaToText3/project/target/resolution-cache/reports/default-agigatotext3-build-scala-tool.xml
-[debug] 	resolve done (1658ms resolve - 126ms download)
+[debug] :: resolution report :: resolve 2013ms :: artifacts dl 194ms
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT compile produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-compile.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT runtime produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-runtime.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT test produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-test.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT provided produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-provided.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT optional produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-optional.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT compile-internal produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-compile-internal.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT runtime-internal produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-runtime-internal.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT test-internal produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-test-internal.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT plugin produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-plugin.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT sources produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-sources.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT docs produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-docs.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT pom produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-pom.xml
+[debug] 	report for default#agigatotext-build;0.1-SNAPSHOT scala-tool produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/project/target/resolution-cache/reports/default-agigatotext-build-scala-tool.xml
+[debug] 	resolve done (2013ms resolve - 194ms download)
 [info] Done updating.

@@ -4,7 +4,7 @@
 		module="world-modeling$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170207201105"
+		publication="20170207213144"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

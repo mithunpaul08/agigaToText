@@ -1,6 +1,5 @@
 [debug] Other repositories:
 [debug] Default repositories:
-[debug] no default cache defined: set to /home/mithunpaul/.ivy2/cache
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: org.clulab#world-modeling$sbt_2.11;1.0
 [debug] 	confs: [default]
@@ -1010,9 +1009,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 838ms :: artifacts dl 52ms
-[debug] 	report for org.clulab#world-modeling$sbt_2.11;1.0 default produced in /home/mithunpaul/spring2017/research/agigaToText3/target/resolution-cache/reports/org.clulab-world-modeling$sbt_2.11-default.xml
-[debug] 	resolve done (838ms resolve - 52ms download)
+[debug] :: resolution report :: resolve 820ms :: artifacts dl 55ms
+[debug] 	report for org.clulab#world-modeling$sbt_2.11;1.0 default produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/target/resolution-cache/reports/org.clulab-world-modeling$sbt_2.11-default.xml
+[debug] 	resolve done (820ms resolve - 55ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: org.clulab#world-modeling$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1497,6 +1496,6 @@
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.5!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] com.github.gseitz#sbt-release;1.0.3!sbt-release.jar(src)
-[debug] :: resolution report :: resolve 213ms :: artifacts dl 42ms
-[debug] 	report for org.clulab#world-modeling$sources_2.11;1.0 default produced in /home/mithunpaul/spring2017/research/agigaToText3/target/resolution-cache/reports/org.clulab-world-modeling$sources_2.11-default.xml
-[debug] 	resolve done (213ms resolve - 42ms download)
+[debug] :: resolution report :: resolve 237ms :: artifacts dl 68ms
+[debug] 	report for org.clulab#world-modeling$sources_2.11;1.0 default produced in /home/mithunpaul/spring2017/research/agigaToText4/agigaToText/target/resolution-cache/reports/org.clulab-world-modeling$sources_2.11-default.xml
+[debug] 	resolve done (237ms resolve - 68ms download)
