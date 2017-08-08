@@ -56,20 +56,20 @@ object shell {
       println("found that runonserver flag=true")
       resourcesDirectory = "/work/mithunpaul/testbed/agigaFiles/"
       outputDirectoryPath = "/work/mithunpaul/newOutputs/agigaToText/"
-      println("resourcesDirectory is:"+resourcesDirectory)
-      println("outputDirectoryPath is:"+outputDirectoryPath)
+      println("resourcesDirectory is:" + resourcesDirectory)
+      println("outputDirectoryPath is:" + outputDirectoryPath)
       val listOfFiles = new File(resourcesDirectory).listFiles().par
       listOfFiles.tasksupport = new ForkJoinTaskSupport(new scala.concurrent.forkjoin.ForkJoinPool(nthreads))
     }
     val listOfFiles = new File(resourcesDirectory).listFiles()
 
-    println("total number of files in this directory is:"+listOfFiles.length)
-val fileCount:Double=listOfFiles.length
-    var fileCounter:Double=0
+    println("total number of files in this directory is:" + listOfFiles.length)
+    val fileCount: Double = listOfFiles.length
+    var fileCounter: Double = 0
     for (indivFileName <- listOfFiles) {
-      fileCounter=fileCounter+1
-      val filePercentageCompleted:Double=(fileCounter*100)/fileCount
-      println("filePercentageCompleted="+filePercentageCompleted+"%")
+      fileCounter = fileCounter + 1
+      val filePercentageCompleted: Double = (fileCounter * 100) / fileCount
+      println("filePercentageCompleted=" + filePercentageCompleted + "%")
       //for each input file, create a corresponding output file with .txt extension.
       val filenameOfThisfile = indivFileName.getName + ".txt"
       utilities.DeleteFileIfExistsAndCreateNewOne(filenameOfThisfile, outputDirectoryPath)
@@ -81,12 +81,22 @@ val fileCount:Double=listOfFiles.length
       println("done reading agiga documents. The number of news articles in this document is:" + doc.length)
       for (newsArticles <- doc) {
 
-        utilities.AppendToFile("\n \n", filenameOfThisfile, outputDirectoryPath)
+        val outFile = new File(outputDirectoryPath, filenameOfThisfile)
+        val bw = new BufferedWriter(new FileWriter(outFile))
+
+
+        //utilities.AppendToFile("\n \n", filenameOfThisfile, outputDirectoryPath)
         for (sentence <- newsArticles.sentences) {
-            //println(sentence.words.mkString(" "))
-          //utilities.AppendToFile(sentence.words.mkString(" "), filenameOfThisfile, outputDirectoryPath)
+          //println(sentence.words.mkString(" "))
+
+          bw.write(sentence + "\n")
+
+
+          utilities.AppendToFile(sentence.words.mkString(" "), filenameOfThisfile, outputDirectoryPath)
           utilities.AppendToFile(sentence.toString(), filenameOfThisfile, outputDirectoryPath)
         }
+        bw.close()
+
       }
     }
   }
