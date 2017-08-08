@@ -81,21 +81,23 @@ object shell {
       println("done reading agiga documents. The number of news articles in this document is:" + doc.length)
       for (newsArticles <- doc) {
 
-        val outFile = new File(outputDirectoryPath, filenameOfThisfile)
-        val bw = new BufferedWriter(new FileWriter(outFile))
+       // val outFile = new File(outputDirectoryPath, filenameOfThisfile)
+        //val bw = new BufferedWriter(new FileWriter(outFile))
 
 
         //utilities.AppendToFile("\n \n", filenameOfThisfile, outputDirectoryPath)
         for (sentence <- newsArticles.sentences) {
           //println(sentence.words.mkString(" "))
 
-          bw.write(sentence + "\n")
+          //bw.write(sentence + "\n")
 
 
-          utilities.AppendToFile(sentence.words.mkString(" "), filenameOfThisfile, outputDirectoryPath)
-          utilities.AppendToFile(sentence.toString(), filenameOfThisfile, outputDirectoryPath)
+          utilities.AppendToFile(sentence.words.mkString(" ")+"\n", filenameOfThisfile, outputDirectoryPath)
+          //utilities.AppendToFile(sentence.toString(), filenameOfThisfile, outputDirectoryPath)
+
+           //utilities.AppendToFile("\n", filenameOfThisfile, outputDirectoryPath)
         }
-        bw.close()
+       // bw.close()
 
       }
     }
