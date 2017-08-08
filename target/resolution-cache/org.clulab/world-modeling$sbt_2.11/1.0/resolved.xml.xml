@@ -4,7 +4,7 @@
 		module="world-modeling$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170207213143"
+		publication="20170807192946"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
@@ -13,7 +13,9 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.8" conf="default->default(compile)"/>
-		<dependency org="com.jsuereth" name="sbt-pgp" rev="1.0.0" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="org.jetbrains" name="sbt-structure-extractor" rev="7.0.0+49-9bc0cd21" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
+		<dependency org="org.jetbrains" name="sbt-idea-shell" rev="1.2+2-3eadcace" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
+		<dependency org="com.jsuereth" name="sbt-pgp" rev="1.0.0" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
 		<dependency org="com.jsuereth" name="pgp-library_2.10" rev="1.0.0" conf="default->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
 		<dependency org="org.bouncycastle" name="bcpg-jdk15on" rev="1.51" conf="default->default(compile)"/>
@@ -23,10 +25,10 @@
 		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" conf="default->default(compile)"/>
 		<dependency org="net.databinder" name="dispatch-futures_2.10" rev="0.8.10" conf="default->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-actors" rev="2.10.2" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.2/"/>
-		<dependency org="org.xerial.sbt" name="sbt-sonatype" rev="1.1" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="org.xerial.sbt" name="sbt-sonatype" rev="1.1" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
 		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.2.6" conf="default->default(compile)"/>
 		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.2.5" conf="default->default(compile)"/>
 		<dependency org="commons-codec" name="commons-codec" rev="1.6" conf="default->default(compile)"/>
-		<dependency org="com.github.gseitz" name="sbt-release" rev="1.0.3" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="com.github.gseitz" name="sbt-release" rev="1.0.3" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>

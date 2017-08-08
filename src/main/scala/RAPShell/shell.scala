@@ -64,8 +64,12 @@ object shell {
     val listOfFiles = new File(resourcesDirectory).listFiles()
 
     println("total number of files in this directory is:"+listOfFiles.length)
-
+val fileCount:Double=listOfFiles.length
+    var fileCounter:Double=0
     for (indivFileName <- listOfFiles) {
+      fileCounter=fileCounter+1
+      val filePercentageCompleted:Double=(fileCounter*100)/fileCount
+      println("filePercentageCompleted="+filePercentageCompleted+"%")
       //for each input file, create a corresponding output file with .txt extension.
       val filenameOfThisfile = indivFileName.getName + ".txt"
       utilities.DeleteFileIfExistsAndCreateNewOne(filenameOfThisfile, outputDirectoryPath)
@@ -79,7 +83,7 @@ object shell {
 
         utilities.AppendToFile("\n \n", filenameOfThisfile, outputDirectoryPath)
         for (sentence <- newsArticles.sentences) {
-          println(sentence.words.mkString(" "))
+            //println(sentence.words.mkString(" "))
           utilities.AppendToFile(sentence.words.mkString(" "), filenameOfThisfile, outputDirectoryPath)
         }
       }

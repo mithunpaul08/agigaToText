@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/agigatotext.iml" filepath="$PROJECT_DIR$/.idea/modules/agigatotext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/agigatotext-build.iml" filepath="$PROJECT_DIR$/.idea/modules/agigatotext-build.iml" />
     </modules>
   </component>
 </project>
