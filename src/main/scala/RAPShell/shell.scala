@@ -84,7 +84,8 @@ val fileCount:Double=listOfFiles.length
         utilities.AppendToFile("\n \n", filenameOfThisfile, outputDirectoryPath)
         for (sentence <- newsArticles.sentences) {
             //println(sentence.words.mkString(" "))
-          utilities.AppendToFile(sentence.words.mkString(" "), filenameOfThisfile, outputDirectoryPath)
+          //utilities.AppendToFile(sentence.words.mkString(" "), filenameOfThisfile, outputDirectoryPath)
+          utilities.AppendToFile(sentence.toString(), filenameOfThisfile, outputDirectoryPath)
         }
       }
     }
