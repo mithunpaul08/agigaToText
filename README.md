@@ -5,3 +5,7 @@ Input and output directories. This is in the server in clulab, amy, clara, river
     resourcesDirectory = "/work/mithunpaul/testbed/agigaFiles/"
       outputDirectoryPath = "/work/mithunpaul/newOutputs/agigaToText/"
 
+TO RUN:
+
+at the top most directory type "sbt run"
+
