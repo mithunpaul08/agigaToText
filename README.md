@@ -9,3 +9,4 @@ TO RUN:
 
 at the top most directory type "sbt run"
 
+Takes around 1.5 hours to run 12 agiga files of 350MB on average... 4.7GB in total
